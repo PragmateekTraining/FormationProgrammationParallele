@@ -1,0 +1,8 @@
+FormationProgrammationParallele.sdf
+FormationProgrammationParallele.suo
+FormationProgrammationParallele.v11.suo
+bin/
+obj/
+*.opensdf
+packages/
+SQLite.Interop.dll

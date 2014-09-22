@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncDeadLockSample", "AsyncDeadLockSample\AsyncDeadLockSample.csproj", "{502411FC-CC6E-48D8-9E89-96EB93C2685B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskDelaySample", "TaskDelaySample\TaskDelaySample.csproj", "{DE1544EF-3E0C-41DD-BFA2-B9C1D1228285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFromResultSample", "TaskFromResultSample\TaskFromResultSample.csproj", "{243677C6-6735-4A66-9036-B5D0BD44E02E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{502411FC-CC6E-48D8-9E89-96EB93C2685B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502411FC-CC6E-48D8-9E89-96EB93C2685B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502411FC-CC6E-48D8-9E89-96EB93C2685B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502411FC-CC6E-48D8-9E89-96EB93C2685B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE1544EF-3E0C-41DD-BFA2-B9C1D1228285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE1544EF-3E0C-41DD-BFA2-B9C1D1228285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE1544EF-3E0C-41DD-BFA2-B9C1D1228285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE1544EF-3E0C-41DD-BFA2-B9C1D1228285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243677C6-6735-4A66-9036-B5D0BD44E02E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243677C6-6735-4A66-9036-B5D0BD44E02E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243677C6-6735-4A66-9036-B5D0BD44E02E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243677C6-6735-4A66-9036-B5D0BD44E02E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
