@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressWindowsFormsSample"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressWPFSample", "ProgressWPFSample\ProgressWPFSample.csproj", "{5B38D99F-3609-47C0-B4A9-842A9A696A3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskWhenAnyAllWPFSample", "TaskWhenAnyWPFSample\TaskWhenAnyAllWPFSample.csproj", "{D1E3AC2F-877F-45A1-BC89-4DBB77A98C9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{5B38D99F-3609-47C0-B4A9-842A9A696A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B38D99F-3609-47C0-B4A9-842A9A696A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B38D99F-3609-47C0-B4A9-842A9A696A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E3AC2F-877F-45A1-BC89-4DBB77A98C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E3AC2F-877F-45A1-BC89-4DBB77A98C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E3AC2F-877F-45A1-BC89-4DBB77A98C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E3AC2F-877F-45A1-BC89-4DBB77A98C9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
