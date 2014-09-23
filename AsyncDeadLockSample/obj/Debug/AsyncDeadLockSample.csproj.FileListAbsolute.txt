@@ -4,3 +4,9 @@ C:\Users\mick\Documents\GitHub\ParallelProgramming\AsyncDeadLockSample\bin\Debug
 C:\Users\mick\Documents\GitHub\ParallelProgramming\AsyncDeadLockSample\obj\Debug\AsyncDeadLockSample.csprojResolveAssemblyReference.cache
 C:\Users\mick\Documents\GitHub\ParallelProgramming\AsyncDeadLockSample\obj\Debug\AsyncDeadLockSample.exe
 C:\Users\mick\Documents\GitHub\ParallelProgramming\AsyncDeadLockSample\obj\Debug\AsyncDeadLockSample.pdb
+C:\Users\mick\Documents\GitHub\FormationProgrammationParallele\AsyncDeadLockSample\bin\Debug\AsyncDeadLockSample.exe.config
+C:\Users\mick\Documents\GitHub\FormationProgrammationParallele\AsyncDeadLockSample\obj\Debug\AsyncDeadLockSample.exe
+C:\Users\mick\Documents\GitHub\FormationProgrammationParallele\AsyncDeadLockSample\obj\Debug\AsyncDeadLockSample.pdb
+C:\Users\mick\Documents\GitHub\FormationProgrammationParallele\AsyncDeadLockSample\bin\Debug\AsyncDeadLockSample.exe
+C:\Users\mick\Documents\GitHub\FormationProgrammationParallele\AsyncDeadLockSample\bin\Debug\AsyncDeadLockSample.pdb
+C:\Users\mick\Documents\GitHub\FormationProgrammationParallele\AsyncDeadLockSample\obj\Debug\AsyncDeadLockSample.csprojResolveAssemblyReference.cache

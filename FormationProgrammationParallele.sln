@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskDelaySample", "TaskDela
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFromResultSample", "TaskFromResultSample\TaskFromResultSample.csproj", "{243677C6-6735-4A66-9036-B5D0BD44E02E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressWindowsFormsSample", "ProgressWindowsFormsSample\ProgressWindowsFormsSample.csproj", "{90A5FB8D-3895-453D-863D-29B9EE02F15B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressWPFSample", "ProgressWPFSample\ProgressWPFSample.csproj", "{5B38D99F-3609-47C0-B4A9-842A9A696A3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,14 @@ Global
 		{243677C6-6735-4A66-9036-B5D0BD44E02E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{243677C6-6735-4A66-9036-B5D0BD44E02E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{243677C6-6735-4A66-9036-B5D0BD44E02E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A5FB8D-3895-453D-863D-29B9EE02F15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A5FB8D-3895-453D-863D-29B9EE02F15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A5FB8D-3895-453D-863D-29B9EE02F15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A5FB8D-3895-453D-863D-29B9EE02F15B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B38D99F-3609-47C0-B4A9-842A9A696A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B38D99F-3609-47C0-B4A9-842A9A696A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B38D99F-3609-47C0-B4A9-842A9A696A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B38D99F-3609-47C0-B4A9-842A9A696A3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

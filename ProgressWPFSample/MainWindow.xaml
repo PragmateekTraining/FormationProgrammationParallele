@@ -1,0 +1,17 @@
+﻿<Window x:Class="ProgressWPFSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:ProgressWPFSample"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <local:MainViewModel x:Name="model"></local:MainViewModel>
+    </Window.DataContext>
+    <StackPanel>
+        <Button x:Name="downloadButton"
+                Click="downloadButton_Click"
+                Margin="5">Download Internet!</Button>
+        <ProgressBar x:Name="progressBar"
+                     Height="20"
+                     Margin="5"></ProgressBar>
+    </StackPanel>
+</Window>
