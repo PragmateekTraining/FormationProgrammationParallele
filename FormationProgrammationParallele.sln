@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetResultOnTheFlySample", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitExceptionHandlingSample", "AsyncAwaitExceptionHandlingSample\AsyncAwaitExceptionHandlingSample.csproj", "{DF95CC6B-2FB7-4A5A-AD49-9C3B91EC29E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxThrottlingSample", "RxThrottlingSample\RxThrottlingSample.csproj", "{4CFFF71B-5FC3-401A-A76E-1009B417C65A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{DF95CC6B-2FB7-4A5A-AD49-9C3B91EC29E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF95CC6B-2FB7-4A5A-AD49-9C3B91EC29E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF95CC6B-2FB7-4A5A-AD49-9C3B91EC29E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CFFF71B-5FC3-401A-A76E-1009B417C65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFFF71B-5FC3-401A-A76E-1009B417C65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFFF71B-5FC3-401A-A76E-1009B417C65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFFF71B-5FC3-401A-A76E-1009B417C65A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
