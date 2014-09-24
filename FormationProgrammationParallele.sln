@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressWPFSample", "Progre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskWhenAnyAllWPFSample", "TaskWhenAnyWPFSample\TaskWhenAnyAllWPFSample.csproj", "{D1E3AC2F-877F-45A1-BC89-4DBB77A98C9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetResultOnTheFlySample", "GetResultOnTheFlySample\GetResultOnTheFlySample.csproj", "{F9817F88-5801-4062-83DE-708BCF6BCE65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{D1E3AC2F-877F-45A1-BC89-4DBB77A98C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1E3AC2F-877F-45A1-BC89-4DBB77A98C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1E3AC2F-877F-45A1-BC89-4DBB77A98C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9817F88-5801-4062-83DE-708BCF6BCE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9817F88-5801-4062-83DE-708BCF6BCE65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9817F88-5801-4062-83DE-708BCF6BCE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9817F88-5801-4062-83DE-708BCF6BCE65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

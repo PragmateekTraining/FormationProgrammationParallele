@@ -6,8 +6,10 @@
     <TabControl>
         <TabItem Header="Wanna Them All Or Nothing!">
             <DockPanel>
-                <Button Click="allButton_Click" DockPanel.Dock="Top">Get Me All!</Button>
-                <Grid>
+                <Button Click="allButton_Click"
+                        DockPanel.Dock="Top"
+                        Margin="5">Get Me All!</Button>
+                <Grid Margin="5">
                     <ListBox x:Name="imagesList" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
                         <ListBox.ItemsPanel>
                             <ItemsPanelTemplate>
@@ -27,8 +29,10 @@
         </TabItem>
         <TabItem Header="Just One Quick!">
             <DockPanel>
-                <Button Click="Button_Click" DockPanel.Dock="Top">Get Me One!</Button>
-                <Grid>
+                <Button Click="Button_Click"
+                        DockPanel.Dock="Top"
+                        Margin="5">Get Me One!</Button>
+                <Grid Margin="5">
                     <Image x:Name="image"></Image>
                     <mui:ModernProgressRing x:Name="progressMarker2" IsActive="False"></mui:ModernProgressRing>
                 </Grid>
