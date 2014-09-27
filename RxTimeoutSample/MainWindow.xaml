@@ -1,0 +1,26 @@
+﻿<Window x:Class="RxTimeoutSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="button">
+            <Button.Template>
+                <ControlTemplate>
+                    <Rectangle Fill="{TemplateBinding Background}"></Rectangle>
+                </ControlTemplate>
+            </Button.Template>
+            <Button.Background>
+                <SolidColorBrush x:Name="brush" Color="Green" Opacity="1">
+                </SolidColorBrush>
+            </Button.Background>
+            <Button.Resources>
+                <Storyboard x:Key="storyboard">
+                    <!--<DoubleAnimation Storyboard.TargetName="brush" Storyboard.TargetProperty="Opacity" Duration="0:0:5" From="1" To="0"></DoubleAnimation>-->
+                    <ColorAnimation Storyboard.TargetName="brush" Storyboard.TargetProperty="Color" Duration="0:0:5" From="Green" To="Red"></ColorAnimation>
+                    <DoubleAnimation Storyboard.TargetName="pb" Storyboard.TargetProperty="Value" Duration="0:0:5" From="0" To="100"></DoubleAnimation>
+                </Storyboard>
+            </Button.Resources>
+        </Button>
+        <ProgressBar x:Name="pb" Height="20" Margin="10"></ProgressBar>
+    </Grid>
+</Window>
