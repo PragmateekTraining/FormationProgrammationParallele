@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxTimeoutSample", "RxTimeou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmutableCollectionsSample", "ImmutableCollectionsSample\ImmutableCollectionsSample.csproj", "{A6EA6DB8-9AC9-4122-9A30-4DEF9A50F2F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellationTokenSample", "CancellationTokenSample\CancellationTokenSample.csproj", "{280C608B-E837-4C38-8FD5-0C60F9205278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assets", "Assets\Assets.csproj", "{565212C5-A8D8-47F5-9A02-EE82C0F8F26A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +77,14 @@ Global
 		{A6EA6DB8-9AC9-4122-9A30-4DEF9A50F2F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6EA6DB8-9AC9-4122-9A30-4DEF9A50F2F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6EA6DB8-9AC9-4122-9A30-4DEF9A50F2F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280C608B-E837-4C38-8FD5-0C60F9205278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280C608B-E837-4C38-8FD5-0C60F9205278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280C608B-E837-4C38-8FD5-0C60F9205278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280C608B-E837-4C38-8FD5-0C60F9205278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{565212C5-A8D8-47F5-9A02-EE82C0F8F26A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{565212C5-A8D8-47F5-9A02-EE82C0F8F26A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{565212C5-A8D8-47F5-9A02-EE82C0F8F26A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{565212C5-A8D8-47F5-9A02-EE82C0F8F26A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
