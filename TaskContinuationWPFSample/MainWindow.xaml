@@ -1,0 +1,13 @@
+﻿<Window x:Class="TaskContinuationWPFSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Button Click="badButton_Click" Margin="5" Background="Red" FontWeight="Bold">Get The Answer!</Button>
+        <Button Click="goodButton_Click" Margin="5" Background="Green" FontWeight="Bold">Get The Answer!</Button>
+        <TextBlock Margin="5">
+            <Run>The answer is: </Run>
+            <Run x:Name="output" FontWeight="Bold"></Run>
+        </TextBlock>
+    </StackPanel>
+</Window>
